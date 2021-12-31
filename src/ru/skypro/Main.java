@@ -37,7 +37,6 @@ public class Main {
             System.out.println(year + " год не является високосным.");
         }
 
-
         // задача 4
         int deliveryTime = 1;// время (дней) доставки в радиусе 20 км
         int deliveryDistance = 30;// расстояние до клиента
@@ -52,6 +51,7 @@ public class Main {
 
         //задача 5
         int monthNumber = 9;
+
         switch (monthNumber) {
             case 12:
             case 1:
