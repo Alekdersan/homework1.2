@@ -7,18 +7,20 @@ public class Main {
     public static void main(String[] args) {
 
         // задача 1
-        int clientOs = 0;
         int clientAndroid = 1;
+        int clientOs = 0;
+
         if (clientOs == 0) {
             System.out.println("Установите версию приложения iOs по ссылке");
         } else {
             System.out.println("Установите версию приложения Android по ссылке");
         }
 
+
         // задача 2
-        int clientDeviceYear = 2010;// выбрать год
-        int clientOsAny = 0;// выбрать ОС для iOs
-        int clientAndroidAny = 1;// выбрать ОС для Android
+        int clientDeviceYear = 2010;
+        int clientOsAny = 0;
+        int clientAndroidAny = 1;
 
         if (clientDeviceYear >= 2015 && clientOsAny == 0 && clientAndroidAny == 1) {
             System.out.println("Установите версию приложения iOs по ссылке");
@@ -28,14 +30,16 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
 
+
         // задача 3
-        int year = 1624;
+        int year = 2005;
 
         if (year % 4 == 0 || year % 400 == 0 && year % 100 != 0) {
             System.out.println(year + " год является високосным.");
         } else {
             System.out.println(year + " год не является високосным.");
         }
+
 
         // задача 4
         int deliveryTime = 1;// время (дней) доставки в радиусе 20 км
@@ -48,6 +52,7 @@ public class Main {
             deliveryTime ++;
         }
         System.out.println("Потребуется: " + deliveryTime + " день доставки.");
+
 
         //задача 5
         int monthNumber = 9;
